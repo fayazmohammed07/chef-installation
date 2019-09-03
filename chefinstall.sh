@@ -4,7 +4,8 @@ yum install wget unzip tree -y
 wget https://packages.chef.io/files/stable/chefdk/4.3.13/el/8/chefdk-4.3.13-1.el7.x86_64.rpm
 rpm -Uvh chefdk-4.3.13-1.el7.x86_64.rpm
 cd /tmp
-git clone https://github.com/masihulla/chefstartekit.git
+git clone https://github.com/fayazmohammed07/chefstartekit.git
+cd chefstarterekit
 unzip chef-starter.zip
 mv chef-repo/ /opt
 cd /opt/chef-repo
